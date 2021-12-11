@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comparatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>My Work - Porfolio</title>
+    <meta name="description" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twiiter:site" content="Twitterアカウントをいれる">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta property="og:url" content="https://○○.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PHOTO BOOK">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="PHOTO BOOK">
+    <meta property="og:img" content="https://○○.com/img/○○">
+    <link rel="icon" type="img/favicon.ico" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180×180" href="">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="ロゴ画像">
+        </a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#works">
+              Works
+            </a>
+          </li>
+          <li>
+            <a href="#news">
+              News
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="top"> 
+        <!-- スマホ版とpc版で画像の幅等を変更したい場合 -->
+        <pucture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+          <img src="img/mainvisual-pc.jpg" alt="トップ画像">
+        </pucture>
+      </section>
+
+      <section id="about">
+        <h2 class="ttl">
+          About
+        </h1>
+        <ul class="inner">
+          <li>
+            Koyo Yoshida
+          </li>
+          <li>
+            2th Floor +++++ Building +-+-+ Oookayama, Meguro-ku, Tokyo 123-4567 Japan
+          </li>
+          <li>
+            url: www.xxxxxjp
+          </li>
+          <li>
+            mail: xxx@xxxx.com
+          </li>
+          <p>
+            プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </ul>
+      </section>
+      
+      <section id="works">
+        <h2 class="ttl">
+          Works
+        </h2>
+        <ul class="inner">
+          <li>
+            <img src="img/works1.jpg" alt="">
+          </li>
+          <li>
+            <img src="img/works2.jpg" alt="">
+          </li>
+          <li>
+            <img src="img/works3.jpg" alt="">
+          </li>
+          <li>
+            <img src="img/works4.jpg" alt="">
+          </li>
+          <li>
+            <img src="img/works5.jpg" alt="">
+          </li>
+          <li>
+            <img src="img/works6.jpg" alt="">
+          </li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2 class="ttl">
+          News
+        </h2>
+        <dl class="inner">
+          <dt>2021.XX.XX</dt>
+          <dd>デザイン雑誌「xxxxxxx Vol.11』に掲載していただきました。</dd>
+          <dt>2021.XX.XX</dt>
+          <dd>xx月xx日から写真集「xxxxxxx」の販売を開始します。</dd>
+          <dt>2021.XX.XX</dt>
+          <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+          <dt>2021.XX.XX</dt>
+          <dd>デザイン雑誌「xxxxxxx Vol.10』に掲載していただきました。</dd>
+          <dt>2021.XX.XX</dt>
+          <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        </dl>
+      </section>
+
+      <section id="contact">
+        <h2 class="ttl">
+          Contact
+        </h2>
+        <!-- コンタクトフォームの短形文 -->
+        <form action="#" method="post">
+          <dl class="inner">
+            <dt>
+              <label for="name">
+                NAME
+              </label>
+            </dt>
+            <dd>
+              <input type="text" id="name" name="your-name">
+            </dd>
+            <dt>
+              <label for="email">
+                E-mail
+              </label>
+            </dt>
+            <dd>
+              <input type="email" id="email" name="your-email">
+            </dd>
+            <dt class="mes">
+              <label for="message">
+                MESSAGE
+              </label>
+            </dt>
+            <dd>
+              <textarea id="message" name="your-message">
+              </textarea>
+            </dd>
+          </dl>
+          <div class="contact_btn">
+            <input type="submit" value="送信">
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2021 My Work</p>
+    </footer>
+  </body>
+</html>

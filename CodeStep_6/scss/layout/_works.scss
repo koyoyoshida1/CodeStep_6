@@ -1,0 +1,11 @@
+#works { 
+  ul {
+    @include flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    width: 31%;
+    margin-bottom: 3%;
+  }
+}

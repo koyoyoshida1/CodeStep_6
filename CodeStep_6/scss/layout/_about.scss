@@ -1,0 +1,11 @@
+#about {
+  li:first-child {
+    margin-bottom: 5%;
+  }
+
+  p {
+    text-align: justify;
+    // テキストの改行位置をぴったり揃える時に役に立つ！
+    margin-top: 5%;
+  }
+}

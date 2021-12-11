@@ -1,0 +1,76 @@
+@media screen and (max-width: 1214px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .inner {
+    margin: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .inner {
+    margin: 5% 2.5%;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 2% 0;
+  }
+
+  .inner {
+    margin: 5% 0.75%;
+  }
+
+  header li {
+    font-size: 0.8rem;
+  }
+
+  #works ul {
+    flex-direction: column;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  #news dl {
+    flex-direction: column;
+
+    dt {
+      width: 100%;
+      border-bottom: none;
+      padding: 1.5% 0 0;
+    }
+
+    dd {
+      width: 100%;
+      padding: 0 0 1.5%;
+    }
+  }
+
+  #contact {
+    dl {
+      flex-direction: flex;
+
+      .mes {
+        height: auto;
+      }
+      
+      dt {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+      }
+      
+      dd {
+        width: 100%;
+      }
+    }
+}
+}
